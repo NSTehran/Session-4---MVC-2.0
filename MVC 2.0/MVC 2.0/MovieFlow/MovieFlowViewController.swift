@@ -34,7 +34,6 @@ class MovieFlowViewController: UIViewController, MovieViewControllerDelegate, Fa
         
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
             self.provider.fetchMovie(withID: self.currentMovie.0) { (result) in
-                print(Thread.isMainThread ? "yes" : "no")
                 switch result {
                 case .success(let movie):
                     let movieVC = MovieViewController(movie: movie)
