@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FlowViewController: UIViewController, MovieViewControllerDelegate, FailedViewControllerDelegate {
+class MovieFlowViewController: UIViewController, MovieViewControllerDelegate, FailedViewControllerDelegate {
     
     let provider: DataProviderProtocol
     var currentMovie: (String, String)!

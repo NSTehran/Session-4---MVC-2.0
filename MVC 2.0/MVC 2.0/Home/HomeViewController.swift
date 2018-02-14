@@ -24,7 +24,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let flowVC = FlowViewController(provider: DataProvider())
+        let flowVC = MovieFlowViewController(provider: DataProvider())
         flowVC.currentMovie = dataProvider.movies[tableView.indexPathForSelectedRow!.last!]
         show(flowVC, sender: self)
         tableView.deselectRow(at: indexPath, animated: true)

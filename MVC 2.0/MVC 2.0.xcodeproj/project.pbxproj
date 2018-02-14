@@ -112,12 +112,12 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		80818069202B66E800F8F7D0 /* Flow */ = {
+		80818069202B66E800F8F7D0 /* MovieFlow */ = {
 			isa = PBXGroup;
 			children = (
 				80EE931B202A5E44003EBEC7 /* FlowViewController.swift */,
 			);
-			path = Flow;
+			path = MovieFlow;
 			sourceTree = "<group>";
 		};
 		8081806A202B66EF00F8F7D0 /* Data */ = {
@@ -160,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				8081806A202B66EF00F8F7D0 /* Data */,
-				80818069202B66E800F8F7D0 /* Flow */,
+				80818069202B66E800F8F7D0 /* MovieFlow */,
 				80818068202B668E00F8F7D0 /* Home */,
 				80818063202B63F500F8F7D0 /* Loading */,
 				80818064202B640200F8F7D0 /* Movie */,
