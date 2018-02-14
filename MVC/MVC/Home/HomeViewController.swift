@@ -28,12 +28,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showMovie" {
-            if let movieVC = segue.destination as? MovieViewController {
-                movieVC.currentMovie = dataProvider.movies[tableView.indexPathForSelectedRow!.last!]
-                movieVC.dataProvider = dataProvider
-            }
-        }
+        guard segue.identifier == "showMovie" else { return }
+        guard let movieVC = segue.destination as? MovieViewController else { return }
+        movieVC.currentMovie = dataProvider.movies[tableView.indexPathForSelectedRow!.last!]
+        movieVC.dataProvider = dataProvider
     }
 }
-
