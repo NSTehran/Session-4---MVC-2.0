@@ -13,12 +13,7 @@ enum Result<T> {
     case failure(Error)
 }
 
-protocol DataProviderProtocol {
-    func fetchMovie(withID id: String, completion: @escaping (Result<Movie>) -> Void)
-    func nextMovie(currentID: String) -> (String, String)
-}
-
-class DataProvider: DataProviderProtocol {
+class DataProvider {
     
     private let session: URLSession
     private let decoder = JSONDecoder()
