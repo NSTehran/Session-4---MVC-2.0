@@ -17,7 +17,7 @@
 		80EE9316202A5B49003EBEC7 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE9315202A5B49003EBEC7 /* LoadingViewController.swift */; };
 		80EE9318202A5B51003EBEC7 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EE9317202A5B51003EBEC7 /* LoadingViewController.xib */; };
 		80EE931A202A5CE7003EBEC7 /* FailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE9319202A5CE7003EBEC7 /* FailedViewController.swift */; };
-		80EE931C202A5E44003EBEC7 /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE931B202A5E44003EBEC7 /* FlowViewController.swift */; };
+		80EE931C202A5E44003EBEC7 /* MovieFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE931B202A5E44003EBEC7 /* MovieFlowViewController.swift */; };
 		80EE931E202A6043003EBEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE931D202A6043003EBEC7 /* Main.storyboard */; };
 		80EE9320202A605F003EBEC7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE931F202A605F003EBEC7 /* HomeViewController.swift */; };
 		80EE9322202A60E7003EBEC7 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE9321202A60E7003EBEC7 /* WebViewViewController.swift */; };
@@ -39,7 +39,7 @@
 		80EE9315202A5B49003EBEC7 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		80EE9317202A5B51003EBEC7 /* LoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 		80EE9319202A5CE7003EBEC7 /* FailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailedViewController.swift; sourceTree = "<group>"; };
-		80EE931B202A5E44003EBEC7 /* FlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
+		80EE931B202A5E44003EBEC7 /* MovieFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFlowViewController.swift; sourceTree = "<group>"; };
 		80EE931D202A6043003EBEC7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		80EE931F202A605F003EBEC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		80EE9321202A60E7003EBEC7 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		80818069202B66E800F8F7D0 /* MovieFlow */ = {
 			isa = PBXGroup;
 			children = (
-				80EE931B202A5E44003EBEC7 /* FlowViewController.swift */,
+				80EE931B202A5E44003EBEC7 /* MovieFlowViewController.swift */,
 			);
 			path = MovieFlow;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8058E505202B544B004F8EB2 /* Transition.swift in Sources */,
-				80EE931C202A5E44003EBEC7 /* FlowViewController.swift in Sources */,
+				80EE931C202A5E44003EBEC7 /* MovieFlowViewController.swift in Sources */,
 				80EE9310202A5834003EBEC7 /* DataProvider.swift in Sources */,
 				80EE930E202A57F0003EBEC7 /* Movie.swift in Sources */,
 				80EE931A202A5CE7003EBEC7 /* FailedViewController.swift in Sources */,
