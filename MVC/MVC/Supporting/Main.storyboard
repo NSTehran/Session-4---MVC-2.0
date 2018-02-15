@@ -195,13 +195,13 @@
                                 <rect key="frame" x="0.0" y="32" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVr-jD-ikL">
-                                        <rect key="frame" x="10" y="6083.5" width="355" height="20.5"/>
+                                        <rect key="frame" x="10" y="339.5" width="355" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZQ-of-4CP">
-                                        <rect key="frame" x="157.5" y="6128.5" width="60" height="30"/>
+                                        <rect key="frame" x="157.5" y="384.5" width="60" height="30"/>
                                         <state key="normal" title="try again"/>
                                         <connections>
                                             <action selector="failedTryAgainAction:" destination="rvz-BP-YIX" eventType="touchUpInside" id="gd2-83-sLh"/>
